@@ -15,7 +15,7 @@ test('Returns the correct difference of two integers', () => {
   expect(calc.subtract(2, 2)).toBe(0);
 })
 test('Returns the correct difference of two decimal numbers', () => {
-  expect(calc.add(2.05, .05)).toBe(2);
+  expect(calc.subtract(2.05, .05)).toBe(2);
 })
 
 // Calculator.divide tests
