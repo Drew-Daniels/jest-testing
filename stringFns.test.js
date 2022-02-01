@@ -2,7 +2,9 @@ import {
   capitalize,
   reverseString,
   caesarCipher,
-} from './index';
+} from './stringFns';
+
+capitalize = require('./stringFns.capitalize');
 
 // capitalize() tests
 test('Capitalizes the first letter in a string with only letters', () => {
