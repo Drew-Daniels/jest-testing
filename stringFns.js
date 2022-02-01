@@ -37,7 +37,7 @@ function capitalize(str) {
 function reverseString(str) {
   let result;
   if (str) {
-
+    result = str.split('').reverse().join('');
   } else {
     result = str;
   }
