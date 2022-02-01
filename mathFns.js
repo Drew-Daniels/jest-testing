@@ -64,7 +64,7 @@ Calculator.prototype = {
         }
         break;
     }
-    return Number((operation(x, y)).toFixed(decimalPlaces));
+    return Math.round(operation(x, y) * 10000) / 10000;
   },
   /**
    * Returns the sum of the two numbers passed
