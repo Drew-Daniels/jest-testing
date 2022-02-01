@@ -5,14 +5,13 @@ const analyzerObject = analyzeArray(intArray);
 
 // object.average
 test('Returns the correct average of an array with only integers', () => {
-  expect(analyzerObject.average).toBe(2);
+  expect(analyzerObject.avg).toBe(2);
 })
 
 // object.min
 test('Returns the correct minimum value of an array with only integers', () => {
   expect(analyzerObject.min).toBe(1);
 })
-
 
 // object.max
 test('Returns the correct maximum value of an array with only integers', () => {
@@ -21,5 +20,5 @@ test('Returns the correct maximum value of an array with only integers', () => {
 
 // object.length
 test('Returns the correct length of an array with only integers', () => {
-  expect(analyzerObject.length).toBe(3);
+  expect(analyzerObject.len).toBe(3);
 })
