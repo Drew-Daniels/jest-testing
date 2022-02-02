@@ -99,7 +99,6 @@ function analyzeArray(arr) {
   analyzerObj.min = getArrMin(arr);
   analyzerObj.max = getArrMax(arr);
   analyzerObj.len = getArrLen(arr);
-  console.log(analyzerObj);
   return analyzerObj;
 }
 
